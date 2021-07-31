@@ -1,0 +1,88 @@
+
+  /* ########################## Basic Declarations ########################## */
+
+  * {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+a {
+	font-size: 1.6rem;
+	text-decoration: none;    
+}
+
+p, li {
+	font-size: 1.6rem;
+	margin-bottom: 0.5 em;
+}
+
+h1, h2, h3 {
+	margin-bottom: 0.5em;
+	font-weight: 500;
+}
+
+body {
+	background-color: #cdcdcd;
+}
+
+/* ######################### Content Styling ######################## */
+
+.main-para {
+    margin: 8rem;
+    font-size: 1.8rem;
+    letter-spacing: 0;
+    font-family: 'Handlee', cursive;
+}
+
+.img-blog {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+img {
+    width: 500px;
+}
+
+.thums {
+    text-align: center;
+}
+
+.thums .like {
+    border: 2px solid rgb(104, 104, 104);
+    padding: 1rem;
+    border-radius: 40px;
+    color: rgb(22, 214, 22);
+    background-color: lightyellow;
+}
+
+.thums .dislike {
+    border: 2px solid rgb(104, 104, 104);
+    border-radius: 40px;
+    padding: 1rem;
+    color: red;
+    background-color: lightyellow;
+}
+
+.container .prim-head {
+    font-family: 'Potta One', cursive;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.container .main-para .sec-head {
+    font-family: 'Potta One', cursive;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+.container .main-para .tri-head {
+    font-family: 'Potta One', cursive;
+    font-size: 1.8rem;
+    font-weight: 500;
+}

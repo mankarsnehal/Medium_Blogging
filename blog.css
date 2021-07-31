@@ -1,0 +1,342 @@
+  
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+
+  /* ########################## Basic Declarations ########################## */
+
+  * {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+a {
+	font-size: 1.6rem;
+	text-decoration: none;    
+}
+
+p, li {
+	font-size: 1.6rem;
+	margin-bottom: 0.5 em;
+}
+
+h1, h2, h3 {
+	margin-bottom: 0.5em;
+	font-weight: 500;
+}
+
+body {
+	background-color:#A0A0A0;
+}
+/* ############################## Header Styling ############################# */
+
+.header {
+	margin-bottom: 2rem;
+}
+ 
+.header .title {
+	float: left;
+}
+
+.header .float-right {
+	float: right;
+	margin: 2rem 3rem;
+}
+
+.header::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.header .title {
+	display: inline-block;
+	margin: 3rem;
+	font-family: 'Gotu', sans-serif;
+	font-size: 6rem;
+	font-weight: 700;
+	padding-bottom: 2rem;
+}
+
+.header a {
+	color: #efefef;
+}
+
+.header a:hover {
+	color: #6faaa2;
+}
+
+.header .started {
+	background-color: #343434;
+	font-weight: 900;
+	font-family: 'Bodoni Moda', serif;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 1rem 2rem;
+}
+
+.header .search-bar {
+	background-color: #fff;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 1.1rem 2rem;
+	margin: 1rem;
+}
+
+.header .search-bar .sym-search {
+	color: #888484b6;
+	padding: 0 0 0 1rem;
+}
+
+.header .search-bar .g-search {
+	display: inline-block;
+	font-size: 1.5rem;
+	color: #888484b6;
+	letter-spacing: 0;
+}
+
+.header .count {
+	float: right;
+	padding: 1rem 2rem;
+}
+
+.header .count .visit {
+	font-family: 'Gotu', sans-serif;
+	background-color: #fff;
+	padding: 0.5rem 0;
+	display: inline-block;
+}
+
+.header .count .users {
+	font-family: 'Gotu', sans-serif;
+	background-color: #fff;
+	padding: 0.5rem 0;
+	display: inline-block;
+}
+
+.header .count span.number {
+	color:rgb(106, 153, 240);
+	font-family: 'Yusei Magic', sans-serif;
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+
+/* ############################## Navbar Styling ############################# */
+
+.navbar {
+	text-align: center;
+	width: 1400px;
+	margin: 0 auto;
+	background-color: #454545;
+	border-radius: 2px;
+	max-width: 96%;
+}
+
+.navbar .nav-item {
+	display: inline-block;
+	margin: 0.5rem 0.5rem;
+	border-radius: 6px;
+	padding: 1rem;
+	color: #fff;
+	background-color: #343434;
+}
+
+.navbar .nav a {
+	color: #fff;
+}
+
+.navbar .nav a:hover {
+	color: rgb(57, 247, 57);
+}
+
+
+/* ############################## Content Styling ############################# */
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	width: 
+}
+
+.line {
+	height: 1.2rem;
+	background-color: #dedede;
+	margin: 0.8rem 0;
+	border-radius: 0.5rem;
+}
+
+/* ############################## Section 1 ############################ */
+
+.sec1 {
+	background-color:#DCDCDC;
+	border-radius: 10px;
+	display: flex;
+}
+
+.sec1 .blog1 {
+	width: 37.5%;
+	padding: 10rem 1rem 1rem 1rem;
+}
+
+.sec1 .blog1 .img1 {
+	width: 300px;
+}
+
+.sec1 .ads1 {
+	width: 25%;
+	padding: 1rem;
+}
+
+.sec1 .ads1 .para-ad {
+	padding: 0.5rem;
+	margin-bottom: 3rem;
+	letter-spacing: 0;
+	font-size: 1.5rem;
+}
+
+.sec1 .ads1 .ads-img {
+	width: 200px;
+}
+
+.sec1 .blog2 {
+	width: 37.5%;
+}
+
+.sec1 .blog1 .title1 {
+	font-family: 'Merienda', cursive;
+	color: maroon;
+	font-size: 4rem;
+	margin-bottom: 2rem;
+}
+
+.sec1 .blog1 .read {
+	color: black;
+	font-family: 'Fraunces', serif;
+	font-weight: 100;
+	font-style: italic;
+}
+
+.sec1 .blog1 a {
+	color: 	#404040;
+}
+
+.sec1 .blog1 .name {
+	margin: 2rem 0;
+	font-family: 'Fraunces', serif;
+
+}
+
+.sec1 .blog1 .date {
+	font-family: 'Fraunces', serif;
+}
+
+
+/* ############################## welcome ############################## */
+
+.container .welcome {
+	border-radius: 5px;
+	background-color:#DCDCDC;
+}
+
+.welcome .sec2 {
+	display: inline-block;
+	float: left;
+}
+
+.welcome .sec2 .heading2 {
+	margin: 2.5rem 0 1rem 3rem;
+	font-weight: 700;
+	font-family: 'Yusei Magic', sans-serif;
+	font-size: 4.5rem;
+	/* letter-spacing: 2px; */
+}
+
+.welcome .sec2 .para2 {
+	margin: 1rem 0 2.5rem 3rem;
+	letter-spacing: 0.08rem;
+}
+
+.welcome .img2 {
+	width: 350px;
+	margin: 1rem;
+	float: right;
+}
+
+.welcome::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+
+/* ############################# Footer Styling ############################### */
+
+.footer {
+	max-width: 950px;
+	margin: 0 auto;
+	background-color: #2e2e2e;
+	color: #fff;
+	font-family: 'Bodoni Moda', serif;
+	padding-bottom: 1rem;
+	border-radius: 5px;
+}
+
+.footer li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.footer .about li {
+	margin-top: 0.5rem;
+	padding: 1rem;
+}
+
+.footer .about {
+	margin: 0 auto;
+	text-align: center;
+	/* width: 50%; */
+	padding: 1rem;
+}
+
+.footer .follow,
+.footer .copy {
+	text-align: center;
+	margin: 2rem 0;
+	font-size: 1.5rem;
+	letter-spacing: 0.5px;
+}
+
+.footer .icons {
+	text-align: center;
+}
+
+.footer .icon {
+	padding: 15px;
+	border-radius: 25px;
+}
+
+.footer .google {
+	background-color: rgb(201, 53, 53);
+}
+
+.footer .facebook {
+	background-color: rgb(56, 56, 236);
+}
+
+.footer .twitter {
+	background-color: rgb(130, 160, 214);
+}
+
+.footer .insta {
+	background-color: pink;
+}
